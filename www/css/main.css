@@ -1,0 +1,1016 @@
+/* GENERAL */
+
+h1.page_custom{
+    background: url("../img/icon_terrazas.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 37px;
+    font-weight: bold;
+    height: 42px;
+    padding-left: 30px;
+    padding-top: 17px;
+    text-align: center;
+    text-shadow: 0 1px 0 #EDCE56;
+    letter-spacing: -1.2px;
+}
+h2.page_custom{
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 37px;
+    font-weight: bold;
+    letter-spacing: -1.2px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFF;
+    border-bottom: 1px solid #9a702d;
+}
+h3.page_custom{
+    color: #47260A;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 8px;    
+}
+h3.page_custom.asado_carne{
+    font-size: 22px;
+    width: 230px;
+}
+h3.page_custom.comida_para_llevar{
+    font-size: 20px;
+    width: 220px;
+}
+h4.page_custom{
+    border-bottom: 1px dashed #392A21;
+    display: block;
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+    margin: 5px 0;
+}
+
+.sombra_footer{
+    background: url("../img/bg_footer.png") no-repeat scroll top center transparent;
+    padding: 12px 0;
+    padding-bottom: 8px;    
+}
+
+/* title */
+#logo.ui-title{
+    margin: 0em 5% 0em;
+    height: 120px;
+    white-space: normal;
+}
+#logo.ui-title img{
+    width: 100%;
+    height: 100%;
+}
+
+/* content */
+.ui-page{
+    background: url("../img/bg_wrapper.jpg") repeat-x scroll 0 0 transparent;
+    overflow: hidden;
+}
+.ui-content{
+    padding: 10px 10px 0 10px;
+}
+#content.options .ui-controlgroup-horizontal .ui-btn{
+    border: none;
+}
+#content.options .ui-controlgroup-horizontal .ui-btn-inner{
+    background: url("../img/bg_item.png") no-repeat scroll center top transparent;
+    width: 87px;
+}
+#content.options .ui-btn-inner{
+    padding: 0.6em 2px;
+    margin-right: 4px;
+    margin-left: 5px;
+    font-family: a_song_for_jennifer_boldRg;
+    text-shadow: 0 1px 0 #eecf56;    
+}
+#content.options .ui-btn-icon-top .ui-btn-inner{
+    padding-top: 90px;
+}
+#content.options .ui-icon{
+    margin-top: 10px;
+    border: medium none;
+    box-shadow: none;
+    background-color: inherit;
+    border-radius: 0px
+}
+#content.options .icon_terrazas .ui-icon{
+    background: url("../img/icon_terrazas.png") no-repeat scroll 0 0 transparent;
+    height: 51px;
+    width: 35px;
+    margin-left: -12px;
+}
+#content.options .icon_menu_dia .ui-icon{
+    background: url("../img/icon_menu_dia.png") no-repeat scroll 0 0 transparent;
+    height: 51px;
+    width: 35px;
+    margin-left: -18px;
+}
+#content.options .icon_galeria_foto .ui-icon{
+    background: url("../img/icon_galeria_foto.png") no-repeat scroll 0 0 transparent;
+    height: 35px;
+    margin-left: -24px;
+    margin-top: 16px;
+    width: 47px;
+}
+#content.options .icon_la_carta .ui-icon{
+    background: url("../img/icon_la_carta.png") no-repeat scroll 0 0 transparent;
+    height: 42px;
+    margin-left: -26px;
+    margin-top: 15px;
+    width: 50px;
+}
+#content.options .icon_novedades .ui-icon{
+    background: url("../img/icon_novedades.png") no-repeat scroll 0 0 transparent;
+    height: 45px;
+    margin-left: -24px;
+    margin-top: 10px;
+    width: 44px;
+}
+#content.options .icon_localizacion .ui-icon{
+    background: url("../img/icon_localizacion.png") no-repeat scroll 0 0 transparent;
+    height: 45px;
+    margin-left: -24px;
+    margin-top: 10px;
+    width: 46px;
+}
+#content.options .icon_envia_amigo .ui-icon{
+    background: url("../img/icon_envia_amigo.png") no-repeat scroll 0 0 transparent;
+    height: 46px;
+    margin-left: -25px;
+    margin-top: 9px;
+    width: 47px;
+}
+#content.options .icon_horarios .ui-icon{
+    background: url("../img/icon_horarios.png") no-repeat scroll 0 0 transparent;
+    height: 36px;
+    margin-left: -28px;
+    margin-top: 14px;
+    width: 55px;
+}
+#content.options .icon_contacto .ui-icon{
+    background: url("../img/icon_contacto.png") no-repeat scroll 0 0 transparent;
+    height: 34px;
+    margin-left: -26px;
+    margin-top: 18px;
+    width: 51px;
+}
+#content.options .ui-controlgroup{
+    margin-bottom: 0;
+}
+
+/* footer */
+.footer{
+    background: url("../img/bg_footer.png") no-repeat scroll top center transparent;
+    padding: 12px 0;
+    padding-bottom: 8px;
+}
+.footer p{
+    text-align: center;
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 20px;
+    text-shadow: 0 1px 0 #edce56 /*{t-body-shadow-color}*/;
+}
+
+/* Las terrazas */
+.header_internal{
+    background: url("../img/bg_header_internal.png") repeat-x scroll top center transparent;
+    height: 70px;
+    width: 100%;
+}
+.header_internal a{
+    border-radius: 0 0 0 0 !important;
+    margin-top: 18px !important;
+}
+.header_internal .volver{
+    background: url("../img/bg_volver_link.png") no-repeat scroll center top transparent;
+    height: 34px;
+    width: 70px;
+    margin-left: 4px;
+}
+.header_internal .info{
+    background: url("../img/bg_info_link.png") no-repeat scroll center top transparent;
+    height: 34px;
+    width: 40px;
+    margin-right: 10px;
+}
+.header_internal .volver .ui-btn-inner,
+.header_internal .info .ui-btn-inner{
+    border: 0;
+}
+.ui-footer.footer_internal .contacto_link{
+    margin: 0 auto;
+    width: 80%;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.ui-footer.footer_internal .especialidades_link{
+    margin: 0 auto;
+    width: 48%;
+    overflow: hidden;
+    float: left;
+}
+.ui-footer.footer_internal .comida_para_llevar_link{
+    margin: 0 auto;
+    width: 48%;
+    overflow: hidden;
+    float: right;
+}
+.ui-footer.footer_internal .buttom_left,
+.items .buttom_left{
+    background: url("../img/bg_buttom_left.png") no-repeat scroll top left transparent;
+    width: 10px;
+    height: 38px;
+    float: left;
+}
+.ui-footer.footer_internal .buttom_middle,
+.items .buttom_middle{
+    background: url("../img/bg_buttom_middle.png") repeat-x scroll top left transparent;
+    width: 90%;
+    height: 38px;
+    float: left;
+}
+.ui-footer.footer_internal .buttom_right,
+.items .buttom_right{
+    background: url("../img/bg_buttom_right.png") no-repeat scroll top right transparent;
+    width: 10px;
+    height: 38px;
+    float: left;
+}  
+.ui-footer.footer_internal.multiple{
+    margin: 0 15px;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+}
+.ui-footer.footer_internal.multiple .buttom_middle{
+    width: 85%;
+}
+.ui-footer.footer_internal.multiple .ui-btn .ui-btn-inner{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.4em;
+}
+.ui-footer.footer_internal.multiple .buttom_middle .ui-btn-text{
+    font-size: 18px;
+    margin-left: 0;
+}
+.buttom_middle .ui-btn{
+    margin: 0em auto 0;    
+}
+.buttom_middle .ui-btn .ui-btn-inner{
+    display: inline-block;
+    border-top: 0px solid 	#fff;
+    padding-top: 0.25em;
+}
+.buttom_middle .ui-shadow{
+    -webkit-box-shadow: none;
+}
+.buttom_middle .ui-btn-text{
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 20px;
+    text-shadow: 0 2px 0 #edce56;
+    margin-left: 5px;    
+}
+.buttom_middle .ui-btn-inner .ui-icon{
+    background: url("../img/bg_icon_email.png") no-repeat scroll top center transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    height: 16px;
+    width: 20px;    
+}
+
+/* content */
+.content_top{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.content_top b{
+    font-style: italic;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.content_middle,
+.content_bottom{
+    background: url("../img/bg_content_text.png");
+    border-top: 3px solid #F5CB67;
+    border-right: 3px solid #f8dc96;
+    border-left: 3px solid #f8dc96;
+    border-bottom: 3px solid #f9e3a8;
+    border-radius: 10px 10px 10px 10px;
+	-moz-box-shadow: 0px 0px 5px 			rgba(0,0,0,.6);
+	-webkit-box-shadow: 0px 0px 5px 		rgba(0,0,0,.6);
+	box-shadow: 0px 0px 5px 				rgba(0,0,0,.6);
+    margin-bottom: 5px;
+    padding: 5px;
+    padding-bottom: 2px;
+}
+.content_middle .imagen img{
+    width: 100%;
+    border-radius: 10px;
+    min-height: 4em;
+}
+.content_bottom {
+    margin-bottom: 12px;
+}
+.content_bottom .descripcion,
+.content_middle .descripcion{
+    background: url("../img/bg_las_terrazas.png") no-repeat scroll center center transparent;
+}
+.content_bottom .descripcion .text{
+    padding: 12px;
+}
+.content_bottom .descripcion .text p,
+#menu_dia .descripcion p,
+#la_carta_detail .descripcion p{
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;    
+}
+
+/* INFO */
+.contenedor_info{
+    background: url("../img/bg_info.png") no-repeat scroll left top transparent;
+    height: 283px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 282px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+.contenedor_info .text{
+    margin: 145px 1.5em 1.5em;
+}
+.contenedor_info p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;    
+}
+.contenedor_info a{
+    color: #805844 !important;
+    font-size: 12px;
+}
+
+/* MENU DEL DIA */
+#menu_dia .descripcion p{
+    text-align: left;
+    padding: 1px 0;
+}
+#menu_dia .descripcion p.last{
+    border-top: 1px solid #9a702d;
+}
+#menu_dia .content_middle .descripcion{
+    padding: 12px;
+}
+#menu_dia .content_middle .primeros, 
+#menu_dia .content_middle .segundos{
+    padding-left: 8px;
+}
+#menu_dia .content_middle .precio_descripcion{
+    margin-top: 10px;
+}
+#menu_dia .visita_nuestra_carta{
+    margin-top: 20px;
+}
+#menu_dia .visita_nuestra_carta .buttom_middle .ui-btn-inner .ui-icon{
+    background: url("../img/bg_horario_item.png") no-repeat scroll top center transparent;
+    height: 21px;
+    margin-top: -12px;
+}
+
+#menu_dia h1.page_custom{
+    background: url("../img/icon_menu_dia.png") no-repeat scroll left center transparent;
+    padding-left: 42px;
+}
+#menu_dia p.diario,
+#menu_dia p.festivo{
+    display: block;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding-left: 30px;    
+}
+
+/* Galeria de fotos */
+
+#galeria_fotos .ui-content,
+#galeria_restaurante .ui-content,
+#galeria_la_carta .ui-content,
+#la_carta .ui-content,
+#novedades .ui-content,
+#categoria_vinos .ui-content,
+#menu_grupos .ui-content
+{
+    padding: 0;
+}
+#galeria_fotos .content_top,
+#galeria_restaurante .content_top,
+#galeria_la_carta .content_top,
+#la_carta .content_top,
+#categoria_vinos .content_top,
+#menu_grupos .content_top{
+    padding-top: 10px;
+}
+.content_lista_galeria .ui-icon{
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+}
+.content_lista_galeria .ui-btn-inner{
+    border-radius: 0 0 0 0;
+    background: url("../img/arrow_galeria_foto.png") no-repeat scroll center right transparent;
+    border-top:0px;
+    padding-left: 70px;
+    text-align: left;
+}
+.content_lista_galeria a{
+    background: url("../img/bg_galeria_foto_lista.png") repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #FFFFFF !important;
+    border-radius: 0 0 0 0 !important;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.content_lista_galeria a b{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.5px;    
+}
+.content_lista_galeria .gf_restaurante .ui-icon{
+    background: url("../img/icon_gf_restaurante.png") no-repeat scroll top center transparent;
+    width: 47px;
+    height: 63px;
+    padding-left: 15px;
+    margin-top: -27px;
+}
+.content_lista_galeria .gf_la_carta .ui-icon{
+    background: url("../img/icon_gf_la_carta.png") no-repeat scroll top center transparent;
+    height: 29px;
+    width: 34px;
+    padding-left: 25px;
+    margin-top: -14px;
+}
+
+/* Galeria de fotos Lista */
+.content_lista_fotos img{
+    display: block;
+    height: 95px;
+    width: 95px;
+}
+.content_lista_fotos li{
+    float: left;
+    border-top: 2px solid #f5cb67;
+    border-right: 2px solid #fae4ac;
+    border-left: 2px solid #f9e09f;
+    border-bottom: 2px solid #f6d278;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+.content_lista_galeria .ui-btn-text{
+    padding-top: 8px;
+    display: inline-block;
+}
+#galeria_fotos .content_lista_galeria .ui-btn-inner{
+    min-height: 35px;
+}
+
+/* Galeria de fotos Restaurant */
+
+#galeria_restaurante .content_lista_fotos ul,
+#galeria_la_carta .content_lista_fotos ul{
+    background: url("../img/bg_footer.png") no-repeat scroll bottom center transparent;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+/* LA CARTA */
+#la_carta .ui-controlgroup,
+#categoria_vinos .ui-controlgroup,
+#menu_grupos .ui-controlgroup{
+    margin-bottom: 0;
+}
+#la_carta .header_internal .info.eng{
+    background: url("../img/bg_carta_eng.png") no-repeat scroll center top transparent;
+    width: 41px;
+}
+#la_carta .header_internal .info.esp{
+    background: url("../img/bg_carta_esp.png") no-repeat scroll center top transparent;
+    width: 41px;
+}
+.content_lista_galeria .entrantes .ui-icon,
+.content_lista_galeria .menu_grupo .ui-icon{
+    background: url("../img/icon_la_carta_entrantes.png") no-repeat scroll top center transparent;
+    width: 38px;
+    height: 36px;
+    padding-left: 14px;
+    margin-top: -20px;    
+}
+.content_lista_galeria .primeros .ui-icon{
+    background: url("../img/icon_la_carta_primeros.png") no-repeat scroll top center transparent;
+    height: 31px;
+    margin-top: -20px;
+    padding-left: 36px;
+    width: 26px;  
+}
+.content_lista_galeria .pescados .ui-icon{
+    background: url("../img/icon_la_carta_pescados.png") no-repeat scroll top center transparent;
+    height: 28px;
+    margin-top: -10px;
+    padding-left: 15px;
+    width: 38px;  
+}
+.content_lista_galeria .carnes .ui-icon{
+    background: url("../img/icon_la_carta_carnes.png") no-repeat scroll top center transparent;
+    height: 24px;
+    margin-top: -8px;
+    padding-left: 20px;
+    width: 36px;
+}
+.content_lista_galeria .nuestros_vinos .ui-icon{
+    background: url("../img/icon_la_carta_nuestros_vinos.png") no-repeat scroll top center transparent;
+    height: 38px;
+    margin-top: -15px;
+    padding-left: 46px;
+    width: 19px;
+}
+.content_lista_galeria .especialidades .ui-icon,
+.content_lista_galeria .comida_para_llevar .ui-icon{
+    background: url("../img/icon_la_carta_especialidades.png") no-repeat scroll top center transparent;
+    height: 28px;
+    margin-top: -12px;
+    padding-left: 14px;
+    width: 39px;
+}
+
+/* LA CARTA - DETAIL */
+
+#la_carta_detail h3.entrante{
+    background: url("../img/icon_la_carta_entrantes.png") no-repeat scroll center left transparent;
+    padding-left: 50px;
+}
+#la_carta_detail h3.primero{
+    background: url("../img/icon_la_carta_primeros.png") no-repeat scroll center left transparent;
+    padding-left: 35px;
+}
+#la_carta_detail h3.pescado{
+    background: url("../img/icon_la_carta_pescados.png") no-repeat scroll center left transparent;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+#la_carta_detail h3.asado_carne{
+    background: url("../img/icon_la_carta_carnes.png") no-repeat scroll center left transparent;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+#la_carta_detail h3.comida_para_llevar{
+    background: url("../img/icon_la_carta_especialidades.png") no-repeat scroll center left transparent;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+#la_carta_detail h3.comida_para_llevar{
+    background: url("../img/icon_la_carta_especialidades.png") no-repeat scroll center left transparent;
+    padding-left: 50px;
+}
+#la_carta_detail .descripcion p{
+    text-align: left;
+    padding: 10px;
+    padding-top: 5px;
+}
+#la_carta_detail .descripcion p span{
+    font-size: 14px;
+}#la_carta_detail .descripcion p span.pedido{
+    color: #FFFFFF;
+}
+
+/* NOVEDADES */
+#novedades .ui-listview{
+    margin: 0;
+}
+#novedades .ui-listview .ui-icon{
+    background: url("../img/arrow_galeria_foto.png") no-repeat scroll right top transparent;
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+    height: 49px;
+    margin-top: 0;
+    padding: 0;
+    top: 25%;
+    width: 21px;
+}
+
+#novedades .ui-listview li{
+    background: url("../img/bg_galeria_foto_lista.png") repeat scroll 0 0 transparent;    
+    border-bottom: 1px solid #eabb2d !important;
+    border-radius: 0 0 0 0 !important;
+    padding-left: 10px;
+    padding-top: 8px;    
+}
+#novedades .ui-listview li a{
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+#novedades .ui-listview .ui-li{
+    border-top-width: 0px;
+}
+#novedades .ui-listview li h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #5f3901;
+}
+#novedades .ui-listview li b{
+    color: #FDF9CD;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+}
+#novedades .ui-listview li img{
+    border-top: 2px solid #eac263;
+    border-left: 2px solid #eac263;
+    border-right: 2px solid #b59756;
+    border-bottom: 2px solid #efca6e;
+    border-radius: 3px 3px 3px 3px;
+    width: 170px;
+    height: 170px;
+}
+#novedades .ui-listview .ui-li-desc{
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+    white-space: normal;
+    text-align: justify;
+    line-height: 13px;
+    margin-bottom: 0px;
+    min-height: 30px;
+}
+#novedades .ui-listview .ui-btn-hover-t:visited,
+#novedades .ui-listview .ui-btn-hover-t:hover,
+#novedades .ui-listview .ui-btn-hover-t a.ui-link-inherit{
+    color: #000 !important;
+    text-shadow: 0 0px 0 #000 !important;
+}
+
+/* NOVEDAD DETALLE */
+#novedad_detalle .content_middle{
+    padding: 0;
+}
+#novedad_detalle h2{
+    color: #5F3901;
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-top: 12px;
+    font-size: 22px;
+}
+#novedad_detalle p{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+}
+#novedad_detalle .content_bottom_novedad{
+    margin-bottom: 30px;
+}
+
+/* Enviar a un amigo */
+#form_envia_amigo .container_form,
+#form_contact .container_form{
+    padding: 5px 20px;
+}
+form label.ui-input-text,
+#contacto label.ui-input-text{
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-shadow: 0 1px 0 #EDCE56;
+}
+form div.ui-input-text,
+form textarea.ui-input-text
+{
+    margin-top: 0 !important;
+    background-color: #eed16e;
+}
+form textarea.ui-input-text{
+    height: 100px;
+    resize: none;
+}
+.siguenos{
+    overflow: hidden;
+    margin: 0 10px;
+}
+.siguenos label{
+    float: left;
+    margin-top: 14px;
+}
+.siguenos a{
+    float: right;
+    margin-right: 10px;
+}
+.siguenos a.facebook{
+    margin-right: 0px;
+}
+#form_envia_amigo .options,
+#form_contact .options{
+    margin: 0 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+#form_contact .options{
+    text-align: center;
+}
+#form_envia_amigo .ui-btn-inner span,
+#form_contact .ui-btn-inner span{
+    color: #FFFFFF;
+    display: inline-block;
+    overflow: hidden;
+    padding-top: 2px;
+}
+#form_envia_amigo .borrar .ui-btn-inner,
+#form_contact .borrar .ui-btn-inner{
+    background: url("../img/bg_borrar.png") no-repeat scroll 0 0 transparent;
+    border-radius: 0 0 0 0;
+    height: 23px;
+    width: 115px;
+    border-top: 0px;
+}
+#form_envia_amigo .enviar .ui-btn-inner,
+#form_contact .enviar .ui-btn-inner{
+    background: url("../img/bg_enviar.png") repeat scroll 0 0 transparent;
+    height: 22px;
+    width: 118px;
+    border-radius: 0 0 0 0;
+    border-top: 0px;
+}
+#form_envia_amigo .content_middle,
+#form_contact .content_middle{
+    margin-bottom: 20px;
+}
+#form_contact label span{
+    color: #EE0101;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* HORARIOS */
+#horarios .items{
+    overflow: hidden; 
+    margin-bottom: 20px; 
+    margin-top: 40px;
+}
+#horarios .items .item{
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+#horarios .items .item span.ui-btn-inner{
+    padding-left: 35px;
+    display: block;
+    text-align: left;
+    padding-right: 0px;    
+}
+#horarios .items .item .buttom_middle .ui-btn-text span.dia{
+    display: block;
+    float: left;
+    padding-left: 5px;    
+}
+#horarios .items .item .buttom_middle .ui-btn-text span.hora{
+    display: block;
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+#horarios .items .buttom_middle{
+    width: 92%;
+}
+
+#horarios .item .buttom_middle .ui-btn-inner .ui-icon{
+    background: url("../img/bg_horario_item.png") no-repeat scroll center top transparent;
+    height: 21px;
+    margin-top: -14px;    
+}
+
+/* CONTACTO */
+#contacto .ui-controlgroup-controls .ui-btn-inner{
+    border-top: 0;
+    text-align: left;
+}
+#contacto .ui-controlgroup-controls a.ui-btn{
+    border-bottom: 1px solid #9a702d;
+}
+#contacto .content_middle .ui-btn-inner{
+    padding: 12px 10px;
+}
+#contacto .content_middle .ui-btn-inner .ui-btn-text{
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 20px;
+    text-shadow: 0 1px 0 #EDCE56;
+    font-weight: bold;
+}
+#contacto .content_middle .calle .ui-btn-inner .ui-btn-text{
+    font-size: 14px;
+    letter-spacing: -1.0px;
+}
+#contacto .buttom_middle .ui-btn-inner .ui-icon {
+    background: url("../img/bg_horario_item.png") no-repeat scroll center top transparent;
+    height: 21px;
+    margin-top: -12px;
+    width: 20px;
+}
+#contacto .siguenos{
+    margin: 10px 0px 0 10px;
+}
+#contacto .ui-content{
+    margin-bottom: 20px;
+}
+#contacto .content_middle .ui-icon{
+    border-top: 0 none;
+    box-shadow: none;
+    height: 42px;
+    margin-top: -20px;
+    width: 41px;
+}
+#contacto .content_middle .calle .ui-icon{
+    background: url("../img/bg_icon_calle.png") no-repeat scroll center top transparent;
+}
+#contacto .content_middle .telefono .ui-icon{
+    background: url("../img/bg_icon_telefono.png") no-repeat scroll center top transparent;
+}
+#contacto .content_middle .web .ui-icon{
+    background: url("../img/bg_icon_web.png") no-repeat scroll center top transparent;
+}
+#contacto .content_middle .form_contacto{
+    border-radius: 0;
+}
+#contacto .content_middle .form_contacto .ui-icon{
+    background: url("../img/bg_icon_form_contacto.png") no-repeat scroll center top transparent;
+}
+
+/* RESERVAR MESA */
+#reservar_mesa .content_middle{
+    text-align: center;
+    margin-top: 20px;
+}
+#reservar_mesa .content_middle p{
+    font-size: 21px;
+    text-shadow: 0 1px 0 #EDCE56;
+    font-weight: bold;
+}
+#reservar_mesa .content_middle .top{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+#reservar_mesa .content_middle span{
+    display: block;
+    margin-bottom: 5px;    
+}
+#reservar_mesa .content_middle .bottom{
+    margin-bottom: 30px;
+}
+#reservar_mesa .content_middle .bottom b{
+    font-size: 30px;
+}
+
+/* LOCALIZACION */
+#localizacion .content_bottom_localizacion{
+    background: url("../img/bg_footer.png") no-repeat scroll top center transparent;
+    padding: 12px 0;
+    padding-bottom: 8px;
+}
+#localizacion .map_content_pane{
+    overflow: hidden;
+}
+
+/* Lista vinos */
+#vinos_x_categoria .content_middle{
+    margin-bottom: 30px;
+}
+#vinos_x_categoria .lista_vinos{
+    padding: 10px 0;
+}
+#vinos_x_categoria .lista_vinos li{
+    margin: 5px 0;
+    overflow: hidden;
+    border-bottom: 1px dashed #6C2A06;    
+}
+#vinos_x_categoria .lista_vinos h2{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+#vinos_x_categoria .lista_vinos span{
+    color: #000;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+/* Menu para grupos */
+
+#menu_grupos h1.page_custom{
+    font-size: 34px;
+}
+
+/* Menu para grupos detalle */
+#menu_grupos_detail.ui-page{
+    background-repeat: repeat;
+}
+#menu_grupos_detail .content_middle{
+    margin-bottom: 30px;
+}
+#menu_grupos_detail .lista_menus{
+    padding: 10px 0;
+}
+#menu_grupos_detail .lista_menus li{
+    border-bottom: 2px dashed #000;
+    margin: 5px 0;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#menu_grupos_detail .lista_menus h2{
+    border-bottom: 1px dashed #6C2A06;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+#menu_grupos_detail .lista_menus span{
+    color: #000;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+#menu_grupos_detail h4{
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFF;
+    margin: 5px 0;    
+}
+#menu_grupos_detail p{
+    font-size: 15px;
+    padding-left: 15px;
+    text-shadow: 0 1px 0 #EDCE56;    
+}
+
+/* HOME IPAD AND MOBILE*/
+/* #Mobile (Landscape)
+================================================== */
+
+@media only screen and  (max-width: 479px) {
+    #galeria_restaurante .content_lista_fotos ul,
+    #galeria_la_carta .content_lista_fotos ul{
+        margin-left: 8px;
+    }
+    .map_content_pane iframe{
+        width: 285px;
+    }
+    #form_envia_amigo .borrar .ui-btn-inner,
+    #form_envia_amigo .enviar .ui-btn-inner{
+        width: 80px;
+        border-radius: 0px 8px 8px 0px;
+    }
+    #form_contact h1{
+        font-size: 28px;
+    }
+    #vinos_x_categoria h1.dominio_de_valdepusa{
+        font-size: 30px;
+    }    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    #content.options .ui-controlgroup-horizontal .ui-btn-inner {
+        width: 124px;
+    }
+    #galeria_restaurante .content_lista_fotos ul,
+    #galeria_la_carta .content_lista_fotos ul{
+        margin-left: 28px;
+    }
+    .ui-footer.footer_internal .especialidades_link{
+        padding-left: 15px;
+    }
+    .map_content_pane iframe{
+        width: 532px;
+    }
+    #form_envia_amigo .options{
+        margin: 0 55px;
+        margin-bottom: 15px;
+    }
+    #horarios .items .item{
+        padding-left: 15px;
+    }
+}
+
+/* Tablet (Portrait)
+================================================== */
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+}

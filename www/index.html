@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8"/>
+    	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    	
+        <title>Las Terrazas</title>
+        
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.0.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+    	<link rel="stylesheet" href="css/main.css" />
+    	
+        <script src="js/jquery-1.8.2.js"></script>
+        <script src="js/jquery.mobile-1.3.0.js"></script>
+        <script src="js/locale.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/main.js"></script>
+        
+    </head>
+    <body>
+    
+    <!-- HOME -->
+    
+    <div data-role="page" id="view" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" id="header">
+    		<h1 id="logo">
+                <img src="img/logo_terrazas.png"/>
+            </h1>
+    	</div><!-- /header -->
+    
+    	<div data-role="content" id="content" class="options">
+            <div data-role="controlgroup" data-type="horizontal">
+                <a class="icon_terrazas" href="#las_terrazas" data-role="button" data-icon="grid" data-iconpos="top">Las Terrazas</a>
+                <a class="icon_menu_dia" href="#menu_dia" data-role="button" data-icon="grid" data-iconpos="top">Menu del Dia</a>
+                <a class="icon_galeria_foto" href="#galeria_fotos" data-role="button" data-icon="grid" data-iconpos="top">Galer&iacute;a Fotos</a>
+                
+                <a class="icon_la_carta" href="#la_carta" data-role="button" data-icon="grid" data-iconpos="top">La Carta</a>
+                <a class="icon_novedades" href="#novedades" data-role="button" data-icon="grid" data-iconpos="top">Novedades</a>
+                <a class="icon_localizacion" href="localizacion.html" data-role="button" data-icon="grid" data-iconpos="top">Localizaci&oacute;n</a>
+                
+                <a class="icon_envia_amigo" href="#envia_a_un_amigo" data-role="button" data-icon="grid" data-iconpos="top">Env&iacute;a a un Amigo</a>
+                <a class="icon_horarios" href="#horarios" data-role="button" data-icon="grid" data-iconpos="top">Horarios</a>
+                <a class="icon_contacto" href="#contacto" data-role="button" data-icon="grid" data-iconpos="top">Contacto</a>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t" class="footer">
+            <p>C/ San Sebasti&aacute;n, 3 - Becerril de la Sierra - 91 853 8002</p>
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- LAS TERRAZAS -->
+    
+    <div data-role="page" id="las_terrazas" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">Las Terrazas</h1>
+            </div>
+            <div class="content_middle">
+                <div class="imagen">
+                    <img src=""/>
+                </div>
+            </div>
+            <div class="content_bottom">
+                <div class="descripcion">
+                    <div class="text">
+                        <p>
+                            Ubicado en la localidad madrile&ntilde;a de Becerril de la Sierra, a pie de "La Maliciosa", en nuestro restaurante usted podr&aacute; disfrutar de nuestra cocina tradicional basada en una excelente relaci&oacute;n calidad-precio y un trato familiar y cercano.                     
+                        </p>
+                        <br />
+                        <p>
+                            M&aacute;s de cuarenta a&ntilde;os de experiencia nos avalan...
+                        </p>
+                    </div>
+                </div>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t" class="footer_internal">
+            <div class="contacto_link">
+                <div class="buttom_left"></div>
+                <div class="buttom_middle">
+                    <a href="#contacto" data-role="button" data-icon="grid" data-iconpos="left">Contacto</a>
+                </div>
+                <div class="buttom_right"></div>
+            </div>
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- MENU DEL DIA -->
+    
+    <div data-role="page" id="menu_dia" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 style="display: none;" class="page_custom">Men&uacute; del D&iacute;a</h1>
+                <p class="diario" style="display: none;">
+                    <span class="dia">&nbsp;</span> de <span class="mes">&nbsp;</span>, os ofrecemos nuestro men&uacute; diario.
+                </p>
+                <p class="festivo" style="display: none;">
+                    <span class="dia">&nbsp;</span> de <span class="mes">&nbsp;</span>, os ofrecemos estas recomendaciones y adem&aacute;s de nuestra carta.
+                </p>
+            </div>
+            <div class="content_middle">
+                <div class="descripcion">
+                    <h2 class="page_custom">&nbsp;</h2>
+                    
+                    <h4 class="page_custom" style="display: none;">Primeros</h4>
+                    <div class="primeros">
+                        <p style="display: none;">
+                            Ensalada de la Casa<br />
+                            Paella Marinera<br />
+                            Jud&iacute;as verdes salteadas con bacon y huevo frito<br />
+                            Crema de zanahoria con queso
+                        </p>
+                    </div>
+                    
+                    <h4 class="page_custom" style="display: none;">Segundos</h4>
+                    <div class="segundos">
+                        <p style="display: none;">
+                            Bistec de ternera a la plancha<br />
+                            Colita de rape al horno<br />
+                            Lomo con salsa chimichurry<br />
+                            Escolapa de Pollo                
+                        </p>                    
+                    </div>
+                    
+                    <div class="precio_descripcion">
+                        <p class="last" style="display: none;">
+                            <span>Postres caseros,pan,vino y agua 18</span><b>&euro; I.V.A. Incluido</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    	</div><!-- /content -->
+        
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t" class="footer_internal visita_nuestra_carta">
+            <div class="contacto_link">
+                <div class="buttom_left"></div>
+                <div class="buttom_middle">
+                    <a href="#la_carta" data-role="button" data-icon="grid" data-iconpos="left">Visita Nuestra Carta</a>
+                </div>
+                <div class="buttom_right"></div>
+            </div>
+    	</div><!-- /footer -->        
+    
+    </div><!-- /page -->
+    
+    
+    <!-- GALERIA DE FOTOS OPCIONES -->
+    
+    <div data-role="page" id="galeria_fotos" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">Galer&iacute;a de Fotos</h1>
+            </div>
+            <div class="content_lista_galeria">
+                <div data-role="controlgroup">
+                    <a class="gf_restaurante" href="#galeria_restaurante" data-role="button" data-icon="grid" data-iconpos="left">RESTAURANTE <b>(salones)</b></a>
+                    <a class="gf_la_carta" href="#galeria_la_carta" data-role="button" data-icon="grid" data-iconpos="left">LA CARTA <b>(platos de comida)</b></a>
+                </div>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- GALERIA DE FOTOS - RESTAURANTE -->
+    
+    <div data-role="page" id="galeria_restaurante" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">Galer&iacute;a de Fotos</h1>
+                <b>(salones)</b>
+            </div>
+            <div class="content_lista_fotos">
+                <ul>
+                    <li>
+                        <img src="img/foto_galeria.jpg"/>
+                    </li>
+                    <li>
+                        <img src="img/foto_galeria.jpg"/>
+                    </li>
+                    <li>
+                        <img src="img/foto_galeria.jpg"/>
+                    </li>
+                </ul>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- GALERIA DE FOTOS - PLATOS DE LA CARTA -->
+    
+    <div data-role="page" id="galeria_la_carta" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">Galer&iacute;a de Fotos</h1>
+                <b>(Platos de Comida)</b>
+            </div>
+            <div class="content_lista_fotos">
+                <ul>
+                    <li>
+                        <img src="img/foto_galeria.jpg"/>
+                    </li>
+                    <li>
+                        <img src="img/foto_galeria.jpg"/>
+                    </li>
+                    <li>
+                        <img src="img/foto_galeria.jpg"/>
+                    </li>
+                </ul>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- LA CARTA OPCIONES-->
+    
+    <div data-role="page" id="la_carta" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a id="seleccionar_idioma" class="info eng" href="#" data-role="button" data-iconpos="notext">Idioma</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">La Carta</h1>
+            </div>
+            <div class="content_lista_galeria">
+                <div data-role="controlgroup">
+                    <a class="entrantes" href="#la_carta_detail?tipo_plato=entrante" data-role="button" data-icon="grid" data-iconpos="left">ENTRANTES</a>
+                    <a class="primeros" href="#la_carta_detail?tipo_plato=primero" data-role="button" data-icon="grid" data-iconpos="left">PRIMEROS</a>
+                    <a class="pescados" href="#la_carta_detail?tipo_plato=pescado" data-role="button" data-icon="grid" data-iconpos="left">PESCADOS</a>
+                    <a class="carnes" href="#la_carta_detail?tipo_plato=asado_carne" data-role="button" data-icon="grid" data-iconpos="left">ASADOS Y CARNES</a>
+                    <a class="comida_para_llevar" href="#la_carta_detail?tipo_plato=comida_para_llevar" data-role="button" data-icon="grid" data-iconpos="left">COMIDA PARA LLEVAR</a>
+                    <a class="nuestros_vinos" href="#categoria_vinos" data-role="button" data-icon="grid" data-iconpos="left">NUESTROS VINOS</a>
+                    <a class="menu_grupo" href="#menu_grupos" data-role="button" data-icon="grid" data-iconpos="left">MEN&Uacute; PARA GRUPOS</a>
+                </div>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- LA CARTA - DETAIL -->
+    
+    <div data-role="page" id="la_carta_detail" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">La Carta</h1>
+            </div>
+            <div class="content_middle">
+                <div class="descripcion">
+                    <h3 class="page_custom">&nbsp;</h3>
+                    <div class="text">
+                        <p>
+                            Jam&oacute;n de Jabugo <br />
+                            Lomo Ib&eacute;rico de Bellota <br /> 
+                            Tomates "Patanegra" con Jam&oacute;n Ib&eacute;rico <br /> 
+                            Queso Curado <br />
+                            Foie de Pato "Mi Cuit" <br /> 
+                            Croquetas Caseras <br />
+                            <br />
+                            Ensalada de Pimientos Asados con Ventresca <br />
+                            Ensalada de Pimientos Asados con Anchoas <br />
+                            Ensalada de Tomate "Patanegra" con Ventresca <br />
+                            Parrillada de Verduras
+                        </p>
+                    </div>
+                </div>
+            </div>
+    	</div><!-- /content -->
+    
+    </div><!-- /page -->
+    
+    <!-- NOVEDADES -->
+    
+    <div data-role="page" id="novedades" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <ul data-role="listview" id="lista_novedades">
+            	<li style="display: none;">
+                    <a href="#">
+                        <img src="img/novedad_1.jpg"/>
+                        <h3 class="ui-li-heading">DEBUTAMOS DE LOCAL EN LIBERTADORES ANTE TIJUA</h3>
+                        <b>22/08/2012</b>
+                        <p class="ui-li-desc">La Conmebol defini&oacute; los horarios de los juegos de la fase de grupos de la Copa Bridgestone Libertadores </p>
+                    </a>
+                </li>
+            	<li style="display: none;">
+                    <a href="#">
+                        <img src="img/novedad_2.jpg"/>
+                        <h3 class="ui-li-heading">DEBUTAMOS DE LOCAL EN LIBERTADORES ANTE TIJUA</h3>
+                        <b>22/08/2012</b>
+                        <p class="ui-li-desc">La Conmebol defini&oacute; los horarios de los juegos de la fase de grupos de la Copa Bridgestone Libertadores </p>
+                    </a>
+                </li>
+            	<li style="display: none;">
+                    <a href="#">
+                        <img src="img/novedad_3.jpg"/>
+                        <h3 class="ui-li-heading">DEBUTAMOS DE LOCAL EN LIBERTADORES ANTE TIJUA</h3>
+                        <b>22/08/2012</b>
+                        <p class="ui-li-desc">La Conmebol defini&oacute; los horarios de los juegos de la fase de grupos de la Copa Bridgestone Libertadores </p>
+                    </a>
+                </li>
+            	<li style="display: none;">
+                    <a href="#">
+                        <img src="img/novedad_3.jpg"/>
+                        <h3 class="ui-li-heading">DEBUTAMOS DE LOCAL EN LIBERTADORES ANTE TIJUA</h3>
+                        <b>22/08/2012</b>
+                        <p class="ui-li-desc">La Conmebol defini&oacute; los horarios de los juegos de la fase de grupos de la Copa Bridgestone Libertadores </p>
+                    </a>
+                </li>
+            </ul>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- ENVIAR A UN AMIGO -->
+    
+    <div data-role="page" id="envia_a_un_amigo" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <form id="form_envia_amigo" name="form_envia_amigo">
+                <div class="content_top">
+                    <h1 class="page_custom">Env&iacute;a a un Amigo</h1>
+                </div>
+                <div class="content_middle">
+                    <div class="container_form">
+                        <label for="form_nombre">Nombre:</label>
+                        <input type="text" name="name" id="form_nombre" value="" data-mini="true" />
+                        <label for="form_nombre">Email:</label>
+                        <input type="text" name="email" id="form_email" value="" data-mini="true" />
+                        <label for="textarea">Comentario:</label>
+                        <textarea name="comentario" id="textarea"></textarea>
+                        <div class="siguenos">
+                            <label class="ui-input-text">Siguenos en:</label>
+                            <a class="facebook" href="https://www.facebook.com/restaurante.lasterrazasdebecerril" target="_blank">
+                                <img src="img/icon_facebook.png"/>
+                            </a>
+                            <a class="twitter" href="https://twitter.com/LasTerrazasRest/" target="_blank">
+                                <img src="img/icon_twitter.png"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <a id="borrar_form" class="borrar" style="float: left;"href="javascript:void(0)" data-role="button">Borrar</a>
+                        <a id="enviar_form" class="enviar" style="float: right;" href="javascript:void(0)" data-role="button">Enviar</a>
+                    </div>
+                </div>
+            </form>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- HORARIOS -->
+    
+    <div data-role="page" id="horarios" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">Horarios</h1>
+            </div>
+            <div class="content_middle items">
+                <div class="lists">
+                    <!--Lunes -->
+                    <div class="item">
+                        <div class="buttom_left"></div>
+                        <div class="buttom_middle">
+                            <a href="#" data-role="button" data-icon="grid" data-iconpos="left">
+                                <span class="dia">Lunes</span>
+                                <span class="hora lunes">&nbsp;</span>
+                            </a>
+                        </div>
+                        <div class="buttom_right"></div>
+                    </div>
+                    
+                    <!--Martes -->
+                    <div class="item">
+                        <div class="buttom_left"></div>
+                        <div class="buttom_middle">
+                            <a href="#" data-role="button" data-icon="grid" data-iconpos="left">
+                                <span class="dia">Martes</span>
+                                <span class="hora martes">&nbsp;</span>
+                            </a>
+                        </div>
+                        <div class="buttom_right"></div>
+                    </div>
+                    
+                    <!--Miercoles -->
+                    <div class="item">
+                        <div class="buttom_left"></div>
+                        <div class="buttom_middle">
+                            <a href="#" data-role="button" data-icon="grid" data-iconpos="left">
+                                <span class="dia">Miercoles</span>
+                                <span class="hora miercoles">&nbsp;</span>
+                            </a>
+                        </div>
+                        <div class="buttom_right"></div>
+                    </div>
+                    
+                    <!--Jueves -->
+                    <div class="item">
+                        <div class="buttom_left"></div>
+                        <div class="buttom_middle">
+                            <a href="#" data-role="button" data-icon="grid" data-iconpos="left">
+                                <span class="dia">Jueves</span>
+                                <span class="hora jueves">&nbsp;</span>
+                            </a>
+                        </div>
+                        <div class="buttom_right"></div>
+                    </div>
+                    
+                    <!--Viernes -->
+                    <div class="item">
+                        <div class="buttom_left"></div>
+                        <div class="buttom_middle">
+                            <a href="#" data-role="button" data-icon="grid" data-iconpos="left">
+                                <span class="dia">Viernes</span>
+                                <span class="hora viernes">&nbsp;</span>
+                            </a>
+                        </div>
+                        <div class="buttom_right"></div>
+                    </div>
+                    
+                    <!--Sabado -->
+                    <div class="item">
+                        <div class="buttom_left"></div>
+                        <div class="buttom_middle">
+                            <a href="#" data-role="button" data-icon="grid" data-iconpos="left">
+                                <span class="dia">Sabado</span>
+                                <span class="hora sabado">&nbsp;</span>
+                            </a>
+                        </div>
+                        <div class="buttom_right"></div>
+                    </div>
+                    
+                    <!--Domingo -->
+                    <div class="item">
+                        <div class="buttom_left"></div>
+                        <div class="buttom_middle">
+                            <a href="#" data-role="button" data-icon="grid" data-iconpos="left">
+                                <span class="dia">Domingo</span>
+                                <span class="hora domingo">&nbsp;</span>
+                            </a>
+                        </div>
+                        <div class="buttom_right"></div>
+                    </div>                    
+                    
+                </div>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t" class="footer_internal">
+            <div class="contacto_link">
+                <div class="buttom_left"></div>
+                <div class="buttom_middle">
+                    <a href="#contacto" data-role="button" data-icon="grid" data-iconpos="left">Contacto</a>
+                </div>
+                <div class="buttom_right"></div>
+            </div>
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- CONTACTO -->
+    
+    <div data-role="page" id="contacto" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+                <div class="content_top">
+                    <h1 class="page_custom">Contacto</h1>
+                </div>
+                <div class="content_middle">
+                    <div data-role="controlgroup">
+                        <a class="calle" href="localizacion.html" data-role="button" data-icon="arrow-r" data-iconpos="right">C/ San Sebasti&aacute;n, <br />3 - Becerril de la Sierra - 91 853 8002</a>
+                        <a class="telefono" href="#" data-role="button" data-icon="arrow-r" data-iconpos="right">(405)942-0260</a>
+                        <a class="web" href="http://www.lasterrazasdebecerril.es/" target="_blank" data-role="button" data-icon="arrow-r" data-iconpos="right">Web Site</a>
+                        <a class="form_contacto" href="#formulario_contacto" data-role="button" data-icon="arrow-r" data-iconpos="right">Formulario de Contacto</a>
+                        <div class="siguenos">
+                            <label class="ui-input-text">Siguenos en:</label>
+                            <a class="facebook" href="https://www.facebook.com/restaurante.lasterrazasdebecerril" target="_blank">
+                                <img src="img/icon_facebook.png"/>
+                            </a>
+                            <a class="twitter" href="https://twitter.com/LasTerrazasRest/" target="_blank">
+                                <img src="img/icon_twitter.png"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t" class="footer_internal">
+            <div class="contacto_link">
+                <div class="buttom_left"></div>
+                <div class="buttom_middle">
+                    <a href="#reservar_mesa" data-role="button" data-icon="grid" data-iconpos="left">Reservar Mesa</a>
+                </div>
+                <div class="buttom_right"></div>
+            </div>
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- RESERVAR MESA -->
+    
+    <div data-role="page" id="reservar_mesa" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">Reservar Mesa</h1>
+            </div>
+            <div class="content_middle">
+                <p class="top">
+                    Para reservar mesa en nuestro
+                    <br />
+                    <b>Restaurante Las Terrazas,</b>
+                    <br />
+                    Por favor ll&aacute;manos por tel&eacute;fono.
+                </p>
+                <p class="bottom">
+                    <span>
+                        <img src="img/bg_icon_telefono.png"/>
+                    </span>
+                    <b>(405)942-0260</b>
+                </p>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- FORMULARIO DE CONTACTO -->
+    
+    <div data-role="page" id="formulario_contacto" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <form id="form_contact" name="form_contact">
+                <div class="content_top">
+                    <h1 class="page_custom">Formulario de contacto</h1>
+                </div>
+                <div class="content_middle">
+                    <div class="container_form">
+                        <label for="form_nombre">Nombre:<span> *</span></label>
+                        <input type="text" name="name" id="form_nombre" value="" data-mini="true" />
+                        <label for="form_nombre">Telefono:</label>
+                        <input type="text" name="phone" id="form_telefono" value="" data-mini="true" />
+                        <label for="form_nombre">Email:<span> *</span></label>
+                        <input type="text" name="email" id="form_email" value="" data-mini="true" />
+                        <label for="textarea">Mensaje:<span> *</span></label>
+                        <textarea name="mensaje" id="textarea"></textarea>
+                    </div>
+                    <div class="options">
+                        <a id="enviar_form" class="enviar" style="display: inline-block;" href="javascript:void(0)" data-role="button">Enviar</a>
+                    </div>
+                </div>
+            </form>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- VINOS OPCIONES CATEGORIAS-->
+    
+    <div data-role="page" id="categoria_vinos" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">Nuestros Vinos</h1>
+            </div>
+            <div class="content_lista_galeria">
+                <div data-role="controlgroup" id="categorias">
+                    <a style="display: none;" class="nuestros_vinos" href="#" data-role="button" data-icon="grid" data-iconpos="left">&nbsp;</a>
+                </div>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- MENU GRUPOS OPCIONES-->
+    
+    <div data-role="page" id="menu_grupos" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">Men&uacute; para Grupos</h1>
+            </div>
+            <div class="content_lista_galeria">
+                <div data-role="controlgroup">
+                    <a class="entrantes" href="#menu_grupos_detail?categoria_menu=eventos" data-role="button" data-icon="grid" data-iconpos="left">EVENTOS</a>
+                    <a class="entrantes" href="#menu_grupos_detail?categoria_menu=bautizos" data-role="button" data-icon="grid" data-iconpos="left">BAUTIZOS</a>
+                    <a class="entrantes" href="#menu_grupos_detail?categoria_menu=comuniones" data-role="button" data-icon="grid" data-iconpos="left">COMUNIONES</a>
+                </div>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+    	</div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    <!-- MENU GRUPOS - DETAIL -->
+    
+    <div data-role="page" id="menu_grupos_detail" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="content_top">
+                <h1 class="page_custom">&nbsp;</h1>
+            </div>
+            <div class="content_middle">
+                <div class="descripcion">
+                    <ul class="lista_menus">
+                    </ul>
+                </div>
+            </div>
+    	</div><!-- /content -->
+    
+    </div><!-- /page -->
+        
+    <!-- INFO -->
+    
+    <div data-role="page" id="info" data-theme="t">
+    
+    	<div data-role="header" data-tap-toggle="false" data-theme="t" class="header_internal">
+            <a class="volver" href="#" data-role="button" data-rel="back" data-iconpos="notext">Volver</a>
+            <a class="info" href="#info" data-role="button" data-iconpos="notext">Info</a>
+    	</div><!-- /header -->
+    
+    	<div data-role="content">
+            <div class="contenedor_info">
+                <div class="text">
+                    <p>
+                        Versi&oacute;n de la aplicaci&oacute;n: 2.1
+                        Todos los Derechos Reservados &copy; 2013
+                    </p>
+                    <a target="_blank" href="http://www.lasterrazasdebecerril.es/" title="">
+                        www.lasterrazasdebecerril.es
+                    </a>
+                </div>
+            </div>
+    	</div><!-- /content -->
+    
+    	<div data-role="footer" data-tap-toggle="false" data-theme="t">
+        </div><!-- /footer -->
+    
+    </div><!-- /page -->
+    
+    </body>
+</html>

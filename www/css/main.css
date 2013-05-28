@@ -96,7 +96,8 @@ h4.page_custom{
     border: medium none;
     box-shadow: none;
     background-color: inherit;
-    border-radius: 0px
+    border-radius: 0px;
+    display: block;
 }
 #content.options .icon_terrazas .ui-icon{
     background: url("../img/icon_terrazas.png") no-repeat scroll 0 0 transparent;
@@ -281,7 +282,8 @@ h4.page_custom{
     border-radius: 0px;
     box-shadow: none;
     height: 16px;
-    width: 20px;    
+    width: 20px;
+    display: block;
 }
 
 /* content */
@@ -292,6 +294,7 @@ h4.page_custom{
 .content_top b{
     font-style: italic;
     text-shadow: 0 1px 0 #FFFFFF;
+    display: block;
 }
 .content_middle,
 .content_bottom{
@@ -419,6 +422,7 @@ h4.page_custom{
 .content_lista_galeria .ui-icon{
     border-radius: 0 0 0 0;
     box-shadow: none;
+    display: block;
 }
 .content_lista_galeria .ui-btn-inner{
     border-radius: 0 0 0 0;
@@ -599,6 +603,7 @@ h4.page_custom{
     padding: 0;
     top: 25%;
     width: 21px;
+    display: block;
 }
 
 #novedades .ui-listview li{
@@ -818,6 +823,7 @@ form textarea.ui-input-text{
     height: 21px;
     margin-top: -12px;
     width: 20px;
+    display: block;
 }
 #contacto .siguenos{
     margin: 10px 0px 0 10px;
@@ -831,6 +837,7 @@ form textarea.ui-input-text{
     height: 42px;
     margin-top: -20px;
     width: 41px;
+    display: block;
 }
 #contacto .content_middle .calle .ui-icon{
     background: url("../img/bg_icon_calle.png") no-repeat scroll center top transparent;

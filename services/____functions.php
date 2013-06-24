@@ -106,7 +106,7 @@
     
     
     function enviar_mail($name, $to, $title, $menssage){
-        $para = $to;
+        $para  = $to;
         $titulo = $title;
         
         // message
@@ -118,39 +118,7 @@
         <body>
           <table>
             <tr>
-              <td style="font-weight: bold;text-align: left;">Hola!</td>
-            </tr>
-            <tr>
-              <td style="font-weight: bold;text-align: left;">Tu amigo '.$name.', te envió el siguiente mensaje:</td>
-            </tr>            
-            <tr>
-              <td><p style="font-weight: normal;text-align: left;">'.$menssage.'</p></td>
-            </tr>
-            <tr>
-              <td style="font-weight: bold;text-align: left;">También te recomendamos que te descargues nuestra aplicación de App Store y Google Play</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                    <li>Haz click <a target="_blank" href="https://itunes.apple.com/us/app/las-terrazas/id659544549?l=es&ls=1&mt=8">aquí</a> para descargar la app de App Store</li>
-                    <li>Haz click <a target="_blank" href="https://play.google.com/store/apps/details?id=terrazas.arrobacreativa&feature=search_result#?t=W251bGwsMSwyLDEsInRlcnJhemFzLmFycm9iYWNyZWF0aXZhIl0.">aquí</a> para descargar la app de Google Play</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-                <td><hr/></td>
-            </tr>
-            <tr>
-                <td style="text-align: left;">Restaurante Las Terrazas <br/> <span font-weight: bold;>"Más de cuarenta años de experiencia nos avalan..."</span></td>
-            </tr>
-            <tr>
-                <td style="text-align: left;">
-                    <a target="_blank" href="http://www.lasterrazasdebecerril.es">http://www.lasterrazasdebecerril.es</a><br/>
-                    contacto@ <br/>
-                    91 853 8002 <br/><br/>
-                    C/ San Sebastián 3 <br/>
-                    Becerril de la Sierra - Madrid
-                </td>
+              <th><p>'.$menssage.'</p></th>
             </tr>
           </table>
         </body>
@@ -162,7 +130,8 @@
         $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
         
         // Cabeceras adicionales
-        $cabeceras .= 'From: Restaurante Las Terrazas <contacto@lasterrazasdebecerril.es>' . "\r\n";
+        $cabeceras .= 'To: '.$name.' <'.$to.'>' . "\r\n";
+        $cabeceras .= 'From: Restaurante las Terrazas <contacto@lasterrazasdebecerril.es>' . "\r\n";
         //$cabeceras .= 'Cc: test@example.com' . "\r\n";
         //$cabeceras .= 'Bcc: test@example.com' . "\r\n";
         // Mail it
@@ -183,8 +152,8 @@
             <tbody>
             	<tr>
             		<td style="text-align: center;">
-                        <a target="_blank" href="http://www.lasterrazasdebecerril.es/" title="Terrazas">
-                            <img style="" src="http://www.lasterrazasdebecerril.es/img/bg_logo_terrazas.png" title="Restaurante las terrazas" height="109" width="370">
+                        <a target="_blank" href="http://terrazas.arrobacreativa.com/" title="Terrazas">
+                            <img style="" src="http://terrazas.arrobacreativa.com/img/bg_logo_terrazas.png" title="Restaurante las terrazas" height="109" width="370">
                         </a>
                     </td>
             	</tr>
@@ -216,7 +185,7 @@
             	</tr>
             
             	<tr>
-            		<td colspan="3" style="text-align: center;" height="100"><a style="color: #c30505; font-family: arial;" href="http://www.lasterrazasdebecerril.es/"><b><span style="color: #c30505; font-family: arial; font-size: 18px;">www.lasterrazasdebecerril.es</span></b></a><a></a></td>
+            		<td colspan="3" style="text-align: center;" height="100"><a style="color: #c30505; font-family: arial;" href="http://terrazas.arrobacreativa.com/"><b><span style="color: #c30505; font-family: arial; font-size: 18px;">terrazas.arrobacreativa.com/</span></b></a><a></a></td>
             	</tr>
             </tbody>
             </table>
@@ -259,7 +228,7 @@
         $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
         
         // Cabeceras adicionales
-        //$cabeceras .= 'To: Las terrazas <contacto@lasterrazasdebecerril.es>' . "\r\n";
+        $cabeceras .= 'To: Las terrazas <contacto@lasterrazasdebecerril.es>' . "\r\n";
         $cabeceras .= 'From: ' . $email . "\r\n";
         $subject = 'Contacto - ' . $name;
         //$cabeceras .= 'Cc: test@example.com' . "\r\n";

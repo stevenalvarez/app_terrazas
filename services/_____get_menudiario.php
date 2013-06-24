@@ -19,7 +19,6 @@ try {
     if(!empty($menu_diario)){
         
         $serializado = deserializar($menu_diario->serializado);
-        unset($menu_diario->serializado);        
         
         if($menu_diario->tipo_menu == "diario"){
             
@@ -33,7 +32,7 @@ try {
             $menu_diario->precio_descripcion = $precio_descripcion;
         
         }else if($menu_diario->tipo_menu == "festivo"){
-            $especialidades = isset($serializado['especialidades']) && !empty($serializado['especialidades']) ? htmlentities(str_replace("&nbsp;", "",strip_tags($serializado['especialidades'], "<p>"))) : "";
+            $especialidades = isset($serializado['especialidades']) && !empty($serializado['especialidades']) ? $serializado['especialidades'] : "";
             $menu_diario->especialidades = $especialidades;
         }
         

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		    = "terrazas.arrobacreativa"
-    versionCode = "2"
-	version 	= "2.0.0">
+	id		    = "lasterrazasdebecerril"
+    versionCode = "6"
+	version 	= "6.0.0">
 
 	<name>Las Terrazas</name>
 
 	<description>
-		Aplicacion mobile para las terrazas
+		Aplicacion mobile - Las Terrazas
 	</description>
 
-	<author href="http://terrazas.arrobacreativa.com"
+	<author href="http://www.lasterrazasdebecerril.es/"
 		email="steven.alvarez.v@gmail.com">
 		jhonny Esteban Alvarez Villazante
 	</author>
@@ -48,9 +48,22 @@
 
     <icon src="icono.png" />
 	<icon src="icono.png" gap:platform="android" width="47" height="47" />
-    <icon src="icono.png" gap:platform="ios" width="57" height="57" />
-    <icon src="icono.png" gap:platform="ios" width="72" height="72" />
-    <icon src="icono.png" gap:platform="ios" width="114" height="114" />
+    
+    <icon src="icons/ios/icon.png" gap:platform="ios" width="57" height="57" />
+    <icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="icons/ios/icon@2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="icons/ios/icon-Small.png" gap:platform="ios" width="29" height="29" />
+    <icon src="icons/ios/icon-Small-50.png" gap:platform="ios" width="50" height="50" />
+    <icon src="icons/ios/icon-Small@2x.png" gap:platform="ios" width="58" height="58" />
+    
+    <gap:splash src="splash.png" />
+    <gap:splash src="splash/ios/Default-568h@2x~iphone.png" gap:platform="ios" width="320" height="480" />
+    
+    <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+    <plugin name="InAppBrowser" />
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+
+    <access origin="*" browserOnly="true"/>
     
 	<feature name="http://api.phonegap.com/1.0/battery"/>
     <feature name="http://api.phonegap.com/1.0/camera"/>

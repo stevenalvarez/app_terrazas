@@ -12,6 +12,7 @@
     	
         <script src="js/jquery-1.8.2.js"></script>
         <script src="js/jquery.mobile-1.3.0.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
         <script src="js/locale.js"></script>
         <script src="js/functions.js"></script>
         <script src="js/main.js"></script>
@@ -35,7 +36,7 @@
                 <a class="icon_menu_dia" href="#menu_dia" data-role="button" data-icon="none" data-iconpos="top">Menu del Dia</a>
                 <a class="icon_galeria_foto" href="#galeria_fotos" data-role="button" data-icon="none" data-iconpos="top">Galer&iacute;a Fotos</a>
                 
-                <a class="icon_la_carta" href="#la_carta" data-role="button" data-icon="none" data-iconpos="top">La Carta</a>
+                <a class="icon_la_carta" href="#la_carta" data-role="button" data-icon="none" data-iconpos="top">Nuestra Carta</a>
                 <a class="icon_novedades" href="#novedades" data-role="button" data-icon="none" data-iconpos="top">Novedades</a>
                 <a class="icon_localizacion" href="localizacion.html" data-role="button" data-icon="none" data-iconpos="top">Localizaci&oacute;n</a>
                 
@@ -46,7 +47,7 @@
     	</div><!-- /content -->
     
     	<div data-role="footer" data-tap-toggle="false" data-theme="t" class="footer">
-            <p>C/ San Sebasti&aacute;n, 3 - Becerril de la Sierra - 91 853 8002</p>
+            <p>C/ San Sebasti&aacute;n, 3 - Becerril de la Sierra - Madrid</p>
     	</div><!-- /footer -->
     
     </div><!-- /page -->
@@ -109,10 +110,10 @@
             <div class="content_top">
                 <h1 style="display: none;" class="page_custom">Men&uacute; del D&iacute;a</h1>
                 <p class="diario" style="display: none;">
-                    <span class="dia">&nbsp;</span> de <span class="mes">&nbsp;</span>, os ofrecemos nuestro men&uacute; diario.
+                    <span class="dia">&nbsp;</span> de <span class="mes">&nbsp;</span>. Os ofrecemos nuestro men&uacute; diario.
                 </p>
                 <p class="festivo" style="display: none;">
-                    <span class="dia">&nbsp;</span> de <span class="mes">&nbsp;</span>, os ofrecemos estas recomendaciones y adem&aacute;s de nuestra carta.
+                    <span class="dia">&nbsp;</span> de <span class="mes">&nbsp;</span>. Os ofrecemos estas recomendaciones adem&aacute;s de nuestra carta.
                 </p>
             </div>
             <div class="content_middle">
@@ -202,17 +203,7 @@
                 <b>(salones)</b>
             </div>
             <div class="content_lista_fotos">
-                <ul>
-                    <li>
-                        <img src="img/foto_galeria.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/foto_galeria.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/foto_galeria.jpg"/>
-                    </li>
-                </ul>
+                <ul></ul>
             </div>
     	</div><!-- /content -->
     
@@ -221,7 +212,7 @@
     
     </div><!-- /page -->
     
-    <!-- GALERIA DE FOTOS - PLATOS DE LA CARTA -->
+    <!-- GALERIA DE FOTOS - PLATOS DE NUESTRA CARTA -->
     
     <div data-role="page" id="galeria_la_carta" data-theme="t">
     
@@ -236,17 +227,7 @@
                 <b>(Platos de Comida)</b>
             </div>
             <div class="content_lista_fotos">
-                <ul>
-                    <li>
-                        <img src="img/foto_galeria.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/foto_galeria.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/foto_galeria.jpg"/>
-                    </li>
-                </ul>
+                <ul></ul>
             </div>
     	</div><!-- /content -->
     
@@ -255,7 +236,7 @@
     
     </div><!-- /page -->
     
-    <!-- LA CARTA OPCIONES-->
+    <!-- NUESTRA CARTA OPCIONES-->
     
     <div data-role="page" id="la_carta" data-theme="t">
     
@@ -266,7 +247,7 @@
     
     	<div data-role="content">
             <div class="content_top">
-                <h1 class="page_custom">La Carta</h1>
+                <h1 class="page_custom">Nuestra Carta</h1>
             </div>
             <div class="content_lista_galeria">
                 <div data-role="controlgroup">
@@ -286,7 +267,7 @@
     
     </div><!-- /page -->
     
-    <!-- LA CARTA - DETAIL -->
+    <!-- NUESTRA CARTA - DETAIL -->
     
     <div data-role="page" id="la_carta_detail" data-theme="t">
     
@@ -297,26 +278,13 @@
     
     	<div data-role="content">
             <div class="content_top">
-                <h1 class="page_custom">La Carta</h1>
+                <h1 class="page_custom">Nuestra Carta</h1>
             </div>
             <div class="content_middle">
                 <div class="descripcion">
                     <h3 class="page_custom">&nbsp;</h3>
-                    <div class="text">
-                        <p>
-                            Jam&oacute;n de Jabugo <br />
-                            Lomo Ib&eacute;rico de Bellota <br /> 
-                            Tomates "Patanegra" con Jam&oacute;n Ib&eacute;rico <br /> 
-                            Queso Curado <br />
-                            Foie de Pato "Mi Cuit" <br /> 
-                            Croquetas Caseras <br />
-                            <br />
-                            Ensalada de Pimientos Asados con Ventresca <br />
-                            Ensalada de Pimientos Asados con Anchoas <br />
-                            Ensalada de Tomate "Patanegra" con Ventresca <br />
-                            Parrillada de Verduras
-                        </p>
-                    </div>
+                    <ul class="lista_platos">
+                    </ul>
                 </div>
             </div>
     	</div><!-- /content -->
@@ -390,18 +358,18 @@
                 </div>
                 <div class="content_middle">
                     <div class="container_form">
-                        <label for="form_nombre">Nombre:</label>
+                        <label for="form_nombre">Nombre (Tu nombre):</label>
                         <input type="text" name="name" id="form_nombre" value="" data-mini="true" />
-                        <label for="form_nombre">Email:</label>
+                        <label for="form_nombre">Email (El email de tu amigo):</label>
                         <input type="text" name="email" id="form_email" value="" data-mini="true" />
                         <label for="textarea">Comentario:</label>
                         <textarea name="comentario" id="textarea"></textarea>
                         <div class="siguenos">
                             <label class="ui-input-text">Siguenos en:</label>
-                            <a class="facebook" href="https://www.facebook.com/restaurante.lasterrazasdebecerril" target="_blank">
+                            <a class="facebook" href="https://www.facebook.com/restaurante.lasterrazasdebecerril" onclick="window.open(this.href,'_system'); return false;">
                                 <img src="img/icon_facebook.png"/>
                             </a>
-                            <a class="twitter" href="https://twitter.com/LasTerrazasRest/" target="_blank">
+                            <a class="twitter" href="https://twitter.com/LasTerrazasRest/" onclick="window.open(this.href,'_system'); return false;">
                                 <img src="img/icon_twitter.png"/>
                             </a>
                         </div>
@@ -549,16 +517,16 @@
                 </div>
                 <div class="content_middle">
                     <div data-role="controlgroup">
-                        <a class="calle" href="localizacion.html" data-role="button" data-icon="none" data-iconpos="right">C/ San Sebasti&aacute;n, <br />3 - Becerril de la Sierra - 91 853 8002</a>
-                        <a class="telefono" href="#" data-role="button" data-icon="none" data-iconpos="right">91 853 8002</a>
-                        <a class="web" href="http://www.lasterrazasdebecerril.es/" target="_blank" data-role="button" data-icon="none" data-iconpos="right">Web Site</a>
+                        <a class="calle" href="localizacion.html" data-role="button" data-icon="none" data-iconpos="right">C/ San Sebasti&aacute;n, <br />3 - Becerril de la Sierra - Madrid</a>
+                        <a class="telefono" href="tel:918538002" data-role="button" data-icon="none" data-iconpos="right">91 853 8002</a>
+                        <a class="web" href="http://www.lasterrazasdebecerril.es/" data-role="button" data-icon="none" data-iconpos="right" onclick="window.open(this.href,'_system'); return false;">Web Site</a>
                         <a class="form_contacto" href="#formulario_contacto" data-role="button" data-icon="none" data-iconpos="right">Formulario de Contacto</a>
                         <div class="siguenos">
                             <label class="ui-input-text">Siguenos en:</label>
-                            <a class="facebook" href="https://www.facebook.com/restaurante.lasterrazasdebecerril" target="_blank">
+                            <a class="facebook" href="https://www.facebook.com/restaurante.lasterrazasdebecerril" onclick="window.open(this.href,'_system'); return false;">
                                 <img src="img/icon_facebook.png"/>
                             </a>
-                            <a class="twitter" href="https://twitter.com/LasTerrazasRest/" target="_blank">
+                            <a class="twitter" href="https://twitter.com/LasTerrazasRest/" onclick="window.open(this.href,'_system'); return false;">
                                 <img src="img/icon_twitter.png"/>
                             </a>
                         </div>
@@ -603,7 +571,9 @@
                     <span>
                         <img src="img/bg_icon_telefono.png"/>
                     </span>
-                    <b>91 853 8002</b>
+                    <b>
+                        <a href="tel:918538002">91 853 8002</a>
+                    </b>
                 </p>
             </div>
     	</div><!-- /content -->
@@ -741,7 +711,7 @@
                         Versi&oacute;n de la aplicaci&oacute;n: 2.1
                         Todos los Derechos Reservados &copy; 2013
                     </p>
-                    <a target="_blank" href="http://www.lasterrazasdebecerril.es/" title="">
+                    <a href="http://www.lasterrazasdebecerril.es/" title="" onclick="window.open(this.href,'_system'); return false;">
                         www.lasterrazasdebecerril.es
                     </a>
                 </div>

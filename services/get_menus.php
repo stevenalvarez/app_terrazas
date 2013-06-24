@@ -16,6 +16,7 @@ try {
 	$menus = $stmt->fetchAll(PDO::FETCH_OBJ);
     if(!empty($menus) && is_array($menus)){
         foreach($menus as $key => $menu){
+            $menus[$key]->nombre_pdf = strtolower(preg_replace('/[^a-zA-Z0-9]/','', $menu->nombre)) . ".pdf";
             $menus[$key]->nombre = htmlentities($menu->nombre);
             $menus[$key]->descripcion = htmlentities($menu->descripcion);
         }

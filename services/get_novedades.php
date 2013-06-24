@@ -4,7 +4,7 @@ include 'functions.php';
 
 header ('Content-type: text/html; charset=ISO-8859-1');
 
-$sql = "SELECT `Novedade`.`id`, `Novedade`.`nombre`, `Novedade`.`descripcion`, `Novedade`.`imagen`, DATE_FORMAT(`Novedade`.`fechahora`,'%d/%m/%Y') as fecha FROM `novedades` AS `Novedade` LEFT JOIN `restaurants` AS `Restaurant` ON (`Novedade`.`restaurant_id` = `Restaurant`.`id`) ORDER BY `Novedade`.`fechahora` desc LIMIT 20";
+$sql = "SELECT `Novedade`.`id`, `Novedade`.`nombre`, `Novedade`.`descripcion`, `Novedade`.`imagen`, DATE_FORMAT(`Novedade`.`fechahora`,'%d/%m/%Y') as fecha FROM `novedades` AS `Novedade` LEFT JOIN `restaurants` AS `Restaurant` ON (`Novedade`.`restaurant_id` = `Restaurant`.`id`) ORDER BY `Novedade`.`fechahora` desc";
 
 try {
 	$dbh = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);	

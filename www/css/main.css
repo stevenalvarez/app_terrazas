@@ -58,7 +58,7 @@ h4.page_custom{
 /* title */
 #logo.ui-title{
     margin: 0em 5% 0em;
-    height: 120px;
+    height: 115px;
     white-space: normal;
 }
 #logo.ui-title img{
@@ -71,15 +71,21 @@ h4.page_custom{
     background: url("../img/bg_wrapper.jpg") repeat-x scroll 0 0 transparent;
     overflow: hidden;
 }
+.ui-controlgroup-controls{
+    overflow: hidden;
+}
 .ui-content{
     padding: 10px 10px 0 10px;
 }
 #content.options .ui-controlgroup-horizontal .ui-btn{
     border: none;
+    display: inline-block;
+    height: 110px;    
 }
 #content.options .ui-controlgroup-horizontal .ui-btn-inner{
     background: url("../img/bg_item.png") no-repeat scroll center top transparent;
     width: 87px;
+    border: none;        
 }
 #content.options .ui-btn-inner{
     padding: 0.6em 2px;
@@ -162,19 +168,28 @@ h4.page_custom{
 }
 #content.options .ui-controlgroup{
     margin-bottom: 0;
+    margin-top: 0;        
 }
 
 /* footer */
 .footer{
     background: url("../img/bg_footer.png") no-repeat scroll top center transparent;
-    padding: 12px 0;
-    padding-bottom: 8px;
+    padding: 5px 0 0 0;
 }
 .footer p{
     text-align: center;
-    font-family: a_song_for_jennifer_boldRg;
-    font-size: 20px;
+    font-family: Arial;
+    font-size: 12px;
     text-shadow: 0 1px 0 #edce56 /*{t-body-shadow-color}*/;
+}
+
+/* home */
+#view #content.options .ui-btn-inner{
+    font-family: Arial;
+    font-size: 15px;
+}
+#view .footer{
+    background: none;
 }
 
 /* Las terrazas */
@@ -411,6 +426,10 @@ h4.page_custom{
 {
     padding: 0;
 }
+#galeria_la_carta.ui-page{
+    background-repeat: repeat;
+}
+
 #galeria_fotos .content_top,
 #galeria_restaurante .content_top,
 #galeria_la_carta .content_top,
@@ -586,8 +605,14 @@ h4.page_custom{
 }
 #la_carta_detail .descripcion p span{
     font-size: 14px;
-}#la_carta_detail .descripcion p span.pedido{
+}
+#la_carta_detail .descripcion p span.pedido{
     color: #FFFFFF;
+}
+#la_carta_detail span.pedidos_text{
+    display: block;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* NOVEDADES */
@@ -682,6 +707,9 @@ h4.page_custom{
 #form_envia_amigo .container_form,
 #form_contact .container_form{
     padding: 5px 20px;
+}
+#form_envia_amigo h1{
+    font-size: 35px;
 }
 form label.ui-input-text,
 #contacto label.ui-input-text{
@@ -879,6 +907,12 @@ form textarea.ui-input-text{
 #reservar_mesa .content_middle .bottom b{
     font-size: 30px;
 }
+#reservar_mesa .content_middle p a{
+    text-shadow: 0 1px 0 #EDCE56;
+    text-align: center;
+    font-size: 30px;
+    color: #392A21;
+}
 
 /* LOCALIZACION */
 #localizacion .content_bottom_localizacion{
@@ -890,30 +924,46 @@ form textarea.ui-input-text{
     overflow: hidden;
 }
 
-/* Lista vinos */
+/* Lista vinos y platos */
 #vinos_x_categoria .content_middle{
     margin-bottom: 30px;
 }
 #vinos_x_categoria .lista_vinos{
     padding: 10px 0;
 }
-#vinos_x_categoria .lista_vinos li{
+#la_carta_detail .lista_platos{
+    padding: 5px 10px 10px;
+}
+#vinos_x_categoria .lista_vinos li,
+#la_carta_detail .lista_platos li{
     margin: 5px 0;
     overflow: hidden;
     border-bottom: 1px dashed #6C2A06;    
 }
 #vinos_x_categoria .lista_vinos h2{
+    font-family: a_song_for_jennifer_boldRg;
     font-size: 18px;
+    font-style: italic;
     font-weight: bold;
     letter-spacing: -1px;
 }
-#vinos_x_categoria .lista_vinos span{
+#la_carta_detail .lista_platos h2{
+    font-family: a_song_for_jennifer_boldRg;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+#vinos_x_categoria .lista_vinos span,
+#la_carta_detail .lista_platos span.precio{
     color: #000;
     display: inline-block;
     float: right;
     font-size: 16px;
     font-weight: bold;
     margin-top: 2px;
+}
+#la_carta_detail .lista_platos span.info_plato{
+    font-size: 14px;
 }
 
 /* Menu para grupos */
@@ -953,6 +1003,21 @@ form textarea.ui-input-text{
     font-weight: bold;
     margin-top: 2px;
 }
+#menu_grupos_detail .lista_menus .label_descargar{
+    margin: 15px 10px 10px 15px;
+}
+#menu_grupos_detail .lista_menus .label_descargar a{
+    background: url("../img/bg_download_button.png") no-repeat scroll 0 0 transparent;
+    color: #E59700;
+    display: block;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    height: 26px;
+    padding: 7px 0 0;
+    text-align: center;
+    width: 123px;
+}
 #menu_grupos_detail h4{
     font-family: a_song_for_jennifer_boldRg;
     font-size: 20px;
@@ -964,6 +1029,16 @@ form textarea.ui-input-text{
     font-size: 15px;
     padding-left: 15px;
     text-shadow: 0 1px 0 #EDCE56;    
+}
+
+/* Galeria detalle */
+#galeria_detalle .ui-content{
+    padding: 0;
+    margin: 0;
+}
+#galeria_detalle img{
+    min-height: 4em;
+    width: 100%;
 }
 
 /* HOME IPAD AND MOBILE*/

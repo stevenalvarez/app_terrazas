@@ -1,5 +1,5 @@
-var NUESTRA_CARTA_esp =  "La Carta";
-var NUESTRA_CARTA_eng = "The Letter";
+var NUESTRA_CARTA_esp =  "Nuestra Carta";
+var NUESTRA_CARTA_eng = "Our Charter";
 
 var ENTRANTES_esp = "ENTRANTES";
 var ENTRANTES_eng = "STARTERS";
